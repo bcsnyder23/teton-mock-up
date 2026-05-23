@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu | Teton Sourdough Co.</title>
+    <meta name="description" content="View our artisan sourdough breads, scratch-made soups, and small-batch pastries.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body class="menu-page">
+    <nav class="navbar" style="background-color: rgba(250, 249, 246, 0.98); box-shadow: 0 2px 10px rgba(0,0,0,0.05);">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-top">Teton</span>
+                <span class="logo-bottom">Sourdough Co.</span>
+            </a>
+            <button class="mobile-toggle" aria-label="Toggle menu">
+                <span class="hamburger"></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html" class="active">Menu</a></li>
+                <li><a href="index.html#about">Our Story</a></li>
+                <li><a href="index.html#location">Visit Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="page-header section">
+        <div class="container text-center reveal">
+            <h1>Our Menu</h1>
+            <p>Freshly baked breads and scratch-made soups.</p>
+        </div>
+    </header>
+
+    <section class="menu-section section pt-0">
+        <div class="container">
+            <div class="menu-grid">
+                <!-- Breads -->
+                <div class="menu-category reveal">
+                    <h2>Artisan Breads</h2>
+                    <p class="category-desc">Naturally leavened and slow-fermented for maximum flavor.</p>
+                    
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h3>Classic Sourdough Boule</h3>
+                            <span class="price">$8</span>
+                        </div>
+                        <p class="item-desc">Our signature crusty loaf with a chewy, open crumb.</p>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h3>Pumpkin Shaped Sourdough</h3>
+                            <span class="price">$10</span>
+                        </div>
+                        <p class="item-desc">Seasonal special! A beautiful artisan loaf scored to look like a pumpkin.</p>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h3>Rustic Baguette</h3>
+                            <span class="price">$5</span>
+                        </div>
+                        <p class="item-desc">Traditional long loaf, perfect for tearing and sharing.</p>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h3>Sourdough Buttermilk Biscuits</h3>
+                            <span class="price">$3/ea</span>
+                        </div>
+                        <p class="item-desc">Flaky, buttery, and made with our sourdough starter discard.</p>
+                    </div>
+                </div>
+
+                <!-- Soups -->
+                <div class="menu-category reveal delay-1">
+                    <h2>Weekly Soups</h2>
+                    <p class="category-desc">Rotating weekly. Served with a thick slice of sourdough bread.</p>
+                    
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h3>Loaded Baked Potato</h3>
+                            <span class="price">$7 Cup / $10 Bowl</span>
+                        </div>
+                        <p class="item-desc">Creamy, rich potato soup topped with bacon, cheddar, and chives.</p>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h3>Creamy Tomato Basil</h3>
+                            <span class="price">$6 Cup / $9 Bowl</span>
+                        </div>
+                        <p class="item-desc">A classic favorite, made with San Marzano tomatoes and fresh basil.</p>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h3>New England Clam Chowder</h3>
+                            <span class="price">$8 Cup / $12 Bowl</span>
+                        </div>
+                        <p class="item-desc">Hearty and creamy with tender clams and potatoes.</p>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h3>Classic Vegetable Minestrone</h3>
+                            <span class="price">$6 Cup / $9 Bowl</span>
+                        </div>
+                        <p class="item-desc">A light, brothy vegetable soup with pasta and beans.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="menu-notice reveal">
+                <p><em>*Menu items and soup options rotate weekly. Visit our <a href="https://instagram.com/tetonsourdoughco" target="_blank" style="color: var(--accent-color); text-decoration: underline;">Instagram</a> for the most up-to-date weekly soup schedule!</em></p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Teton Sourdough Co.</h3>
+                    <p>Rexburg's Bakery & Bistro</p>
+                </div>
+                <div class="footer-social">
+                    <a href="https://instagram.com/tetonsourdoughco" target="_blank" aria-label="Instagram">Instagram</a>
+                    <a href="#" target="_blank" aria-label="Facebook">Facebook</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Teton Sourdough Co. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
